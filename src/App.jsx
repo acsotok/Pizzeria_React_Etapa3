@@ -6,6 +6,7 @@ import Navegacion from './components/Navegacion'
 import Home from './components/Home'
 // import Register from './components/Register'
 import Cart from './components/Cart'
+//import Login from './Login';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <>
       <Navegacion />
       <Home />
+      {/*<Login />*/}
       {/*<Register /> */}
       <Cart />
       <Footer />
